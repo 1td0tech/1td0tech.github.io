@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #D9E3F2; /* Color de fondo principal */
 }
 
 header {
-    background-color: #333;
+    background-color: #4673B9; /* Color del encabezado */
     color: #fff;
     padding: 10px 0;
 }
@@ -31,7 +31,7 @@ nav ul.menu li a {
 }
 
 nav ul.menu li a:hover {
-    color: #f4f4f4;
+    color: #B4C7E4; /* Efecto hover */
     text-decoration: underline;
 }
 
@@ -49,14 +49,18 @@ section#inicio {
 .content {
     max-width: 800px;
     margin: 0 auto;
+    background-color: #8FABD6; /* Color de fondo para secciones */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 h1, h2 {
+    color: #4673B9; /* Color para los títulos */
     margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #6A8FC8; /* Color del pie de página */
     color: #fff;
     text-align: center;
     padding: 10px 0;
