@@ -20,12 +20,26 @@
     <section id="contenido">
         <div class="content">
             <h2>Contenido</h2>
-            <p>Aquí va el contenido principal de tu sitio web.</p>
+            <p>Disfruta de este video.</p>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jVQKk8IB9pA?si=h0fv-e7TU4fgQv1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div class="comments-section">
+                <h3>Comentarios</h3>
+                <div id="commentContainer"></div>
+                <textarea id="commentInput" placeholder="Escribe tu comentario..."></textarea>
+                <button onclick="addComment()">Enviar</button>
+            </div>
         </div>
     </section>
 
     <footer>
         <p>© 2024 Mi Página Elegante. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
